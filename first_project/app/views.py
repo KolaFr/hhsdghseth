@@ -11,7 +11,7 @@ def home_view(request):
     # функцию `reverse`
     pages = {
         'Главная страница': reverse('home'),
-        'Показать текущее время': reverse('time'),  # Исправлено: используем правильное имя URL 'time'
+        'Показать текущее время': reverse('time'),
         'Показать содержимое рабочей директории': reverse('workdir')
     }
 
